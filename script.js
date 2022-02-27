@@ -5,3 +5,7 @@ const insert = (num) => {
     let number = display.innerHTML 
     display.innerHTML = number + num;
 }
+
+const cleanDisplay = () => {
+    display.innerHTML = ''
+}
