@@ -9,9 +9,9 @@
 </head>
 <body>
     <div class="container">
+        
         <div class="calculator">
-
-            <h1>Calculadora</h1>
+            <h1 class="title">Calculadora</h1>
             <p id="display"></p>
 
             <table>
@@ -40,11 +40,11 @@
                     <td><button class="button" onclick="insert('1')">1</button></td>
                     <td><button class="button" onclick="insert('2')">2</button></td>
                     <td><button class="button" onclick="insert('3')">3</button></td>
-                    <td rowspan="2"><button class="button" onclick="calc()">=</button></td>
+                    <td rowspan="2"><button class="button" id="equal" onclick="calc()">=</button></td>
                 </tr>
 
                 <tr>
-                    <td colspan="2"><button class="button" onclick="insert('0')">0</button></td>
+                    <td colspan="2"><button id="zero" class="button" onclick="insert('0')">0</button></td>
                     <td><button class="button" onclick="insert('.')">.</button></td>
                     
                 </tr>
