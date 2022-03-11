@@ -17,7 +17,7 @@
 .calculator {
     
     display: flex;
-    /* max-width: 271px; */
+    max-width: 271px; 
     flex-direction: column;
     background-color: rgb(168, 10, 10);
     border-radius: 10px;
